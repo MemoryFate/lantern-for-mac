@@ -1,17 +1,15 @@
-# lantern-for-mac
+# lantern-for-mac</br>
 
-这是一款破解版的蓝灯VPN软件，我也是从别的地方clone下来的。最近国内vpn基本上都销声匿迹了，很少见到。
-
-在编译过程中你需要知道的有以下几个方面：  
+这是一款破解版的蓝灯VPN软件，我也是从别的地方clone下来的。最近国内vpn基本上都销声匿迹了，很少见到。</br></br>
+在编译过程中你需要知道的有以下几个方面：  </br>
 首先找个顺手地方放工程，然后用git将工程clone下来
 
-## 1. 装homebrew。
+## 1. 装homebrew。</br>
 打开终端，复制粘贴以下命令就OK，中间可能需要输一次密码：
 
 `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`  
 
-## 2. 找个地方把lantern从GitHub上clone下来  
-
+## 2. 找个地方把lantern从GitHub上clone下来  </br>
 `git clone --depth=1 https://github.com/getlantern/lantern.git`  
 
 -------------
@@ -26,9 +24,9 @@
 --------------
 ## 4. 编译Mac版lantern  
 
-`cd lantern`
-`export VERSION=9.9.9`
-`make darwin`
+`cd lantern`</br>
+`export VERSION=9.9.9`</br>
+`make darwin`</br>
 
 编译的时候可能会出现两个错误
 ![编译报错如图所示](error.png)  
